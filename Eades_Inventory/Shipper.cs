@@ -16,7 +16,7 @@ namespace Eades_Inventory
         public int crackersCounter;
 
 
-        public IShippable Add(string product)
+        public Add(string product)
         {
             int i=0;
             i++;
@@ -38,7 +38,7 @@ namespace Eades_Inventory
             {
                 crackersCounter++;
             }
-
+            return product;
         }
 
         string[] Ship = new string[10];

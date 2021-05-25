@@ -2,8 +2,7 @@
 // Alexander Eades
 // IT112 
 // NOTES: Notes the instructor should read
-// BEHAVIORS NOT IMPLEMENTED AND WHY: Are there any parts of the assignment 
-// you did not complete?
+// BEHAVIORS NOT IMPLEMENTED AND WHY: Was unable to properly add items to array without hardcoding.
 namespace Eades_Inventory
 {
     class Program
@@ -30,8 +29,9 @@ namespace Eades_Inventory
                 if (keypress.KeyChar == '1')
                 {
                     Console.Clear();
-                    Bicycle.P
-                    Shipper.Add
+
+                    Shipper.Add("Bicycle");
+                    Console.WriteLine("1 Bicycle has been added");
                     Console.WriteLine("Press any key to return to the menu");
                     Console.ReadKey();
                     Console.Clear();
@@ -41,18 +41,34 @@ namespace Eades_Inventory
                 else if (keypress.KeyChar == '2')
                 {
                     Console.Clear();
-                    
 
+                    Shipper.Add("Lawn Mowers");
+                    Console.WriteLine("1 Lawn Mower has been added");
+                    Console.WriteLine("Press any key to return to the menu");
+                    Console.ReadKey();
+                    Console.Clear();
 
 
                 }
                 else if (keypress.KeyChar == '3')
                 {
                     Console.Clear();
-                    
+
+                    Shipper.Add("Baseball Gloves");
+                    Console.WriteLine("1 Baseball Glove has been added");
+                    Console.WriteLine("Press any key to return to the menu");
+                    Console.ReadKey();
+                    Console.Clear();
+
                 }
                 else if (keypress.KeyChar == '4')
                 {
+                    Console.Clear();
+
+                    Shipper.Add("Crackers");
+                    Console.WriteLine("1 Crackers has been added");
+                    Console.WriteLine("Press any key to return to the menu");
+                    Console.ReadKey();
                     Console.Clear();
 
                 }
@@ -60,7 +76,7 @@ namespace Eades_Inventory
                 {
                     Console.Clear();
                     Console.WriteLine("Shipment manifest:");
-                    if (Shipper.bicycleCounter)
+                    if (Shipper.bicycleCounter) ;
 
 
                 }
