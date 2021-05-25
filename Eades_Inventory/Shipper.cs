@@ -18,7 +18,11 @@ namespace Eades_Inventory
 
         public IShippable Add(string product)
         {
-            if(product=="Bicycle")
+            int i=0;
+            i++;
+            Ship[i] = product;
+
+            if (product=="Bicycle")
             {
                 bicycleCounter++;
             }

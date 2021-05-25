@@ -1,5 +1,9 @@
 ﻿using System;
-
+// Alexander Eades
+// IT112 
+// NOTES: Notes the instructor should read
+// BEHAVIORS NOT IMPLEMENTED AND WHY: Are there any parts of the assignment 
+// you did not complete?
 namespace Eades_Inventory
 {
     class Program
